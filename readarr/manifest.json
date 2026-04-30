@@ -1,0 +1,28 @@
+{
+  "$schema": "../schema.json",
+  "name": "Readarr",
+  "available": true,
+  "exposable": true,
+  "dynamic_config": true,
+  "port": 8112,
+  "id": "readarr",
+  "platform_version": 46,
+  "version": "0.4.19",
+  "categories": [
+    "books",
+    "media"
+  ],
+  "description": "",
+  "short_desc": "Book Manager and Automation (Sonarr for Ebooks)",
+  "author": "readarr.com",
+  "source": "https://github.com/Readarr/Readarr",
+  "form_fields": [],
+  "supported_architectures": [
+    "arm64",
+    "amd64"
+  ],
+  "created_at": 1691943801422,
+  "updated_at": 1761338378505,
+  "min_version": "4.5.0",
+  "icon": "logo.jpg"
+}

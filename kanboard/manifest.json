@@ -1,0 +1,35 @@
+{
+  "name": "Kanboard",
+  "available": true,
+  "exposable": true,
+  "dynamic_config": true,
+  "port": 8010,
+  "id": "kanboard",
+  "description": "Kanboard is a free and open source Kanban project management software.",
+  "platform_version": 30,
+  "version": "v1.2.52",
+  "categories": [
+    "development"
+  ],
+  "short_desc": "Open Source Kanban Board",
+  "author": "Frédéric Guillot",
+  "source": "https://github.com/kanboard/kanboard",
+  "website": "https://kanboard.org/",
+  "form_fields": [
+    {
+      "type": "boolean",
+      "label": "Enable Plugin Installer",
+      "required": false,
+      "env_variable": "PLUGIN_INSTALLER"
+    }
+  ],
+  "supported_architectures": [
+    "arm64",
+    "amd64"
+  ],
+  "created_at": 1691943801422,
+  "updated_at": 1775368628314,
+  "$schema": "../schema.json",
+  "min_version": "4.5.0",
+  "icon": "logo.jpg"
+}

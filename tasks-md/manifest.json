@@ -1,0 +1,35 @@
+{
+  "$schema": "../schema.json",
+  "name": "Tasks.md",
+  "port": 8157,
+  "available": true,
+  "exposable": true,
+  "dynamic_config": true,
+  "id": "tasks-md",
+  "platform_version": 23,
+  "version": "3.3.0",
+  "categories": [
+    "development"
+  ],
+  "description": "A self-hosted, file based task management board that supports Markdown syntax",
+  "short_desc": "A self-hosted, file based task management board.",
+  "author": "BaldissaraMatheus",
+  "source": "https://github.com/BaldissaraMatheus/Tasks.md",
+  "form_fields": [
+    {
+      "type": "text",
+      "label": "Board Title",
+      "placeholder": "My tasks board",
+      "required": true,
+      "env_variable": "TASKS_MD_TITLE"
+    }
+  ],
+  "supported_architectures": [
+    "arm64",
+    "amd64"
+  ],
+  "created_at": 1691943801422,
+  "updated_at": 1773379250542,
+  "min_version": "4.5.0",
+  "icon": "logo.jpg"
+}

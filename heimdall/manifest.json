@@ -1,0 +1,28 @@
+{
+  "name": "Heimdall",
+  "available": true,
+  "exposable": true,
+  "port": 8783,
+  "id": "heimdall",
+  "platform_version": 13,
+  "version": "2.7.6",
+  "categories": [
+    "utilities"
+  ],
+  "description": "Heimdall is a way to organise all those links to your most used web sites and web applications in a simple way",
+  "short_desc": "Application Dashboard",
+  "author": "linuxserver",
+  "source": "https://github.com/linuxserver/Heimdall",
+  "website": "https://heimdall.site/",
+  "form_fields": [],
+  "supported_architectures": [
+    "arm64",
+    "amd64"
+  ],
+  "dynamic_config": true,
+  "created_at": 1691943801422,
+  "updated_at": 1761338378472,
+  "$schema": "../schema.json",
+  "min_version": "4.5.0",
+  "icon": "logo.jpg"
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "../schema.json",
+  "name": "Flaresolverr",
+  "port": 8666,
+  "available": true,
+  "exposable": false,
+  "dynamic_config": true,
+  "no_gui": true,
+  "id": "flaresolverr",
+  "platform_version": 33,
+  "min_version": "4.5.0",
+  "version": "v3.4.6",
+  "categories": [
+    "media",
+    "security",
+    "utilities"
+  ],
+  "description": "FlareSolverr is a proxy server to bypass Cloudflare and DDoS-GUARD protection.",
+  "short_desc": "Bypass Cloudflare and DDoS-GuARD.",
+  "author": "FlareSolverr Team",
+  "source": "https://github.com/FlareSolverr/FlareSolverr",
+  "website": "https://github.com/FlareSolverr/FlareSolverr",
+  "form_fields": [],
+  "supported_architectures": [
+    "arm64",
+    "amd64"
+  ],
+  "created_at": 1691943801422,
+  "updated_at": 1764429959585,
+  "icon": "logo.jpg"
+}

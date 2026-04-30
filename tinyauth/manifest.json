@@ -1,0 +1,85 @@
+{
+  "$schema": "../schema.json",
+  "name": "Tinyauth",
+  "id": "tinyauth",
+  "available": true,
+  "short_desc": "The tiniest authentication and authorization server you have ever seen.",
+  "author": "steveiliop56",
+  "port": 8357,
+  "categories": [
+    "security"
+  ],
+  "description": "Tinyauth is a tiny OpenID Connect (OIDC) authentication and authorization server for your self-hosted applications.",
+  "platform_version": 26,
+  "version": "v5.0.7",
+  "source": "https://github.com/steveiliop56/tinyauth",
+  "website": "https://tinyauth.app",
+  "exposable": true,
+  "supported_architectures": [
+    "arm64",
+    "amd64"
+  ],
+  "created_at": 1742119744755,
+  "updated_at": 1776752173253,
+  "dynamic_config": true,
+  "form_fields": [
+    {
+      "type": "text",
+      "label": "App URL",
+      "hint": "The URL Tinyauth will use to redirect you to the login screen and back, this needs to match with the local domain or the expose domain, e.g. 'https://tinyauth.example.com'.",
+      "required": true,
+      "env_variable": "TINYAUTH_APP_URL"
+    },
+    {
+      "type": "text",
+      "label": "Users",
+      "hint": "A comma separated list of users in the format username:hash (bcrypt hash), make sure to use double dollar signs ($$) in the bcrypt hash to escape them.",
+      "required": true,
+      "env_variable": "TINYAUTH_USERS"
+    },
+    {
+      "type": "text",
+      "label": "GitHub Client ID",
+      "hint": "Fill this with your GitHub client ID if you want to enable GitHub login.",
+      "required": false,
+      "env_variable": "TINYAUTH_GITHUB_CLIENT_ID"
+    },
+    {
+      "type": "password",
+      "label": "GitHub Client Secret",
+      "hint": "Fill this with your GitHub client secret if you want to enable GitHub login.",
+      "required": false,
+      "env_variable": "TINYAUTH_GITHUB_CLIENT_SECRET"
+    },
+    {
+      "type": "text",
+      "label": "Google Client ID",
+      "hint": "Fill this with your Google client ID if you want to enable Google login.",
+      "required": false,
+      "env_variable": "TINYAUTH_GOOGLE_CLIENT_ID"
+    },
+    {
+      "type": "password",
+      "label": "Google Client Secret",
+      "hint": "Fill this with your Google client secret if you want to enable Google login.",
+      "required": false,
+      "env_variable": "TINYAUTH_GOOGLE_CLIENT_SECRET"
+    },
+    {
+      "type": "text",
+      "label": "OAuth Whitelist",
+      "hint": "A comma separated list of emails that are allowed to use the OAuth login, leave empty to allow all emails.",
+      "required": false,
+      "env_variable": "TINYAUTH_OAUTH_WHITELIST"
+    },
+    {
+      "type": "text",
+      "label": "Title",
+      "hint": "Set a custom title for the login screen, e.g. 'My Homelab'.",
+      "required": false,
+      "env_variable": "TINYAUTH_APP_TITLE"
+    }
+  ],
+  "min_version": "4.5.0",
+  "icon": "logo.jpg"
+}

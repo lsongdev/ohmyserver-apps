@@ -1,0 +1,38 @@
+{
+  "$schema": "../schema.json",
+  "name": "Beszel Agent",
+  "id": "beszel-agent",
+  "available": true,
+  "short_desc": "Agent software for Beszel.",
+  "author": "henrygd",
+  "port": 45876,
+  "categories": [
+    "utilities"
+  ],
+  "description": "This is the agent software for the Beszel app.",
+  "platform_version": 53,
+  "version": "0.18.7",
+  "source": "https://github.com/henrygd/beszel",
+  "exposable": false,
+  "dynamic_config": true,
+  "supported_architectures": [
+    "arm64",
+    "amd64"
+  ],
+  "form_fields": [
+    {
+      "type": "text",
+      "label": "Beszel key",
+      "hint": "The key beszel provides when you add a new server.",
+      "min": 80,
+      "max": 80,
+      "required": true,
+      "env_variable": "BESZEL_AGENT_KEY"
+    }
+  ],
+  "no_gui": true,
+  "created_at": 1724537201221,
+  "updated_at": 1777475409637,
+  "min_version": "4.7.0",
+  "icon": "logo.jpg"
+}

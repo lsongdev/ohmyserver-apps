@@ -1,0 +1,27 @@
+{
+  "$schema": "../schema.json",
+  "name": "Homepage",
+  "available": true,
+  "exposable": true,
+  "port": 8756,
+  "platform_version": 52,
+  "version": "v1.12.3",
+  "id": "homepage",
+  "categories": [
+    "utilities"
+  ],
+  "description": "A modern, fully static, fast, secure fully proxied, highly customizable application dashboard with integrations for over 100 services and translations into multiple languages.",
+  "short_desc": "A highly customizable homepage",
+  "author": "gethomepage",
+  "source": "https://github.com/gethomepage/homepage",
+  "form_fields": [],
+  "supported_architectures": [
+    "arm64",
+    "amd64"
+  ],
+  "dynamic_config": true,
+  "created_at": 1691943801422,
+  "updated_at": 1775109101029,
+  "min_version": "4.5.0",
+  "icon": "logo.jpg"
+}

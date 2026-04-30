@@ -1,0 +1,27 @@
+{
+  "name": "NextGBA",
+  "available": true,
+  "port": 8435,
+  "exposable": true,
+  "dynamic_config": true,
+  "id": "nextgba",
+  "description": "All of your favorite gameboy games in your browser",
+  "platform_version": 8,
+  "version": "0.1.0",
+  "categories": [
+    "gaming"
+  ],
+  "short_desc": "Gameboy in your browser",
+  "author": "nicotsx",
+  "source": "https://github.com/nicotsx/nextgba",
+  "form_fields": [],
+  "supported_architectures": [
+    "arm64",
+    "amd64"
+  ],
+  "created_at": 1691943801422,
+  "updated_at": 1761338378488,
+  "$schema": "../schema.json",
+  "min_version": "4.5.0",
+  "icon": "logo.jpg"
+}

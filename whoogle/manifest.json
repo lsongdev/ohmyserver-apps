@@ -1,0 +1,27 @@
+{
+  "$schema": "../schema.json",
+  "name": "Whoogle Search",
+  "available": true,
+  "exposable": true,
+  "dynamic_config": true,
+  "port": 8255,
+  "id": "whoogle",
+  "platform_version": 18,
+  "version": "1.2.4",
+  "categories": [
+    "social"
+  ],
+  "description": "Get Google search results, but without any ads, JavaScript, AMP links, cookies, or IP address tracking.",
+  "short_desc": "A self-hosted, ad-free, privacy-respecting metasearch engine.",
+  "author": "Ben Busby",
+  "source": "https://github.com/benbusby/whoogle-search",
+  "form_fields": [],
+  "supported_architectures": [
+    "arm64",
+    "amd64"
+  ],
+  "created_at": 1691943801422,
+  "updated_at": 1776233694546,
+  "min_version": "4.5.0",
+  "icon": "logo.jpg"
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "../schema.json",
+  "name": "Recyclarr",
+  "port": 1111,
+  "available": true,
+  "exposable": false,
+  "dynamic_config": true,
+  "no_gui": true,
+  "uid": 1000,
+  "gid": 1000,
+  "id": "recyclarr",
+  "platform_version": 37,
+  "version": "8.6.0",
+  "categories": [
+    "media",
+    "utilities"
+  ],
+  "description": "Automatically sync TRaSH Guides to your Sonarr and Radarr instances",
+  "short_desc": "Sync TRaSH Guides.",
+  "author": "rcdailey",
+  "source": "https://github.com/recyclarr/recyclarr",
+  "website": "https://recyclarr.dev",
+  "form_fields": [],
+  "supported_architectures": [
+    "arm64",
+    "amd64"
+  ],
+  "created_at": 1691943801422,
+  "updated_at": 1777358907354,
+  "min_version": "4.5.0",
+  "icon": "logo.jpg"
+}

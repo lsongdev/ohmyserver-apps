@@ -1,0 +1,37 @@
+version: '3.7'
+services:
+  plex:
+    image: lscr.io/linuxserver/plex:1.43.1
+    container_name: plex
+    network_mode: host
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - VERSION=docker
+      - ADVERTISE_IP=${APP_PROTOCOL:-http}://${APP_DOMAIN}/
+    volumes:
+      - ${APP_DATA_DIR}/data/config:/config
+      - ${APP_DATA_DIR}/data/transcode:/transcode
+      - ${ROOT_FOLDER_HOST}/media/data:/media
+    restart: unless-stopped
+    labels:
+      traefik.enable: true
+      traefik.http.middlewares.plex-web-redirect.redirectscheme.scheme: https
+      traefik.http.services.plex.loadbalancer.server.port: 32400
+      traefik.http.routers.plex-insecure.rule: Host(`${APP_DOMAIN}`)
+      traefik.http.routers.plex-insecure.entrypoints: web
+      traefik.http.routers.plex-insecure.service: plex
+      traefik.http.routers.plex-insecure.middlewares: plex-web-redirect
+      traefik.http.routers.plex.rule: Host(`${APP_DOMAIN}`)
+      traefik.http.routers.plex.entrypoints: websecure
+      traefik.http.routers.plex.service: plex
+      traefik.http.routers.plex.tls.certresolver: myresolver
+      traefik.http.routers.plex-local-insecure.rule: Host(`plex.${LOCAL_DOMAIN}`)
+      traefik.http.routers.plex-local-insecure.entrypoints: web
+      traefik.http.routers.plex-local-insecure.service: plex
+      traefik.http.routers.plex-local-insecure.middlewares: plex-web-redirect
+      traefik.http.routers.plex-local.rule: Host(`plex.${LOCAL_DOMAIN}`)
+      traefik.http.routers.plex-local.entrypoints: websecure
+      traefik.http.routers.plex-local.service: plex
+      traefik.http.routers.plex-local.tls: true
+      runtipi.managed: true

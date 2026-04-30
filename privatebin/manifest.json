@@ -1,0 +1,29 @@
+{
+  "$schema": "../schema.json",
+  "name": "PrivateBin",
+  "available": true,
+  "exposable": true,
+  "dynamic_config": true,
+  "port": 8122,
+  "id": "privatebin",
+  "platform_version": 21,
+  "version": "2.0.3",
+  "categories": [
+    "utilities"
+  ],
+  "description": "PrivateBin is a minimalist, open source online pastebin where the server has zero knowledge of pasted data. Data is encrypted and decrypted in the browser using 256bit AES in Galois Counter mode.",
+  "short_desc": "A minimalist, open source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256 bits AES.",
+  "author": "PrivateBin",
+  "source": "https://github.com/PrivateBin/PrivateBin",
+  "form_fields": [],
+  "uid": 65534,
+  "gid": 82,
+  "supported_architectures": [
+    "arm64",
+    "amd64"
+  ],
+  "created_at": 1691943801422,
+  "updated_at": 1763095163569,
+  "min_version": "4.5.0",
+  "icon": "logo.jpg"
+}

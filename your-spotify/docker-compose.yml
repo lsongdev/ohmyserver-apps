@@ -1,0 +1,68 @@
+version: '3'
+services:
+  your-spotify:
+    container_name: your-spotify
+    image: yooooomi/your_spotify_client:1.19.0
+    depends_on:
+      - your-spotify-server
+    restart: unless-stopped
+    ports:
+      - ${APP_PORT}:3000
+    environment:
+      - API_ENDPOINT=http://${INTERNAL_IP}:32500
+    networks:
+      - default_network
+    labels:
+      traefik.enable: true
+      traefik.http.middlewares.your-spotify-web-redirect.redirectscheme.scheme: https
+      traefik.http.services.your-spotify.loadbalancer.server.port: 3000
+      traefik.http.routers.your-spotify-insecure.rule: Host(`${APP_DOMAIN}`)
+      traefik.http.routers.your-spotify-insecure.entrypoints: web
+      traefik.http.routers.your-spotify-insecure.service: your-spotify
+      traefik.http.routers.your-spotify-insecure.middlewares: your-spotify-web-redirect
+      traefik.http.routers.your-spotify.rule: Host(`${APP_DOMAIN}`)
+      traefik.http.routers.your-spotify.entrypoints: websecure
+      traefik.http.routers.your-spotify.service: your-spotify
+      traefik.http.routers.your-spotify.tls.certresolver: myresolver
+      traefik.http.routers.your-spotify-local-insecure.rule: Host(`your-spotify.${LOCAL_DOMAIN}`)
+      traefik.http.routers.your-spotify-local-insecure.entrypoints: web
+      traefik.http.routers.your-spotify-local-insecure.service: your-spotify
+      traefik.http.routers.your-spotify-local-insecure.middlewares: your-spotify-web-redirect
+      traefik.http.routers.your-spotify-local.rule: Host(`your-spotify.${LOCAL_DOMAIN}`)
+      traefik.http.routers.your-spotify-local.entrypoints: websecure
+      traefik.http.routers.your-spotify-local.service: your-spotify
+      traefik.http.routers.your-spotify-local.tls: true
+      runtipi.managed: true
+  your-spotify-server:
+    container_name: your-spotify-server
+    image: yooooomi/your_spotify_server
+    restart: unless-stopped
+    dns:
+      - ${DNS_IP}
+    ports:
+      - '32500:8080'
+    links:
+      - your-spotify-db
+    depends_on:
+      - your-spotify-db
+    environment:
+      - API_ENDPOINT=http://${INTERNAL_IP}:32500
+      - CLIENT_ENDPOINT=http://${INTERNAL_IP}:${APP_PORT}
+      - SPOTIFY_PUBLIC=${SPOTIFY_PUBLIC}
+      - SPOTIFY_SECRET=${SPOTIFY_SECRET}
+      - MONGO_ENDPOINT=mongodb://your-spotify-db:27017/your_spotify
+      - CORS=all
+    networks:
+      - default_network
+    labels:
+      runtipi.managed: true
+  your-spotify-db:
+    container_name: your-spotify-db
+    image: mongo:4.4.30
+    restart: unless-stopped
+    volumes:
+      - ${APP_DATA_DIR}/data/db:/data/db
+    networks:
+      - default_network
+    labels:
+      runtipi.managed: true

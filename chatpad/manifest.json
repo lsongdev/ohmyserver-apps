@@ -1,0 +1,29 @@
+{
+  "$schema": "../schema.json",
+  "name": "Chatpad AI",
+  "available": true,
+  "exposable": true,
+  "dynamic_config": true,
+  "port": 8179,
+  "id": "chatpad",
+  "platform_version": 7,
+  "version": "latest",
+  "categories": [
+    "ai"
+  ],
+  "description": "Not just another ChatGPT user-interface!",
+  "short_desc": "Not just another ChatGPT user-interface!",
+  "author": "Andrei Canta",
+  "source": "https://github.com/deiucanta/chatpad",
+  "website": "https://chatpad.ai/",
+  "form_fields": [],
+  "supported_architectures": [
+    "arm64",
+    "amd64"
+  ],
+  "created_at": 1691943801422,
+  "updated_at": 1761338378453,
+  "force_pull": true,
+  "min_version": "4.5.0",
+  "icon": "logo.jpg"
+}

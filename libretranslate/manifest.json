@@ -1,0 +1,27 @@
+{
+  "$schema": "../schema.json",
+  "name": "LibreTranslate",
+  "available": true,
+  "exposable": true,
+  "dynamic_config": true,
+  "port": 8121,
+  "id": "libretranslate",
+  "platform_version": 35,
+  "version": "v1.9.5",
+  "categories": [
+    "utilities"
+  ],
+  "description": "Free and Open Source Machine Translation API, entirely self-hosted. Unlike other APIs, it doesn't rely on proprietary providers such as Google or Azure to perform translations. Instead, its translation engine is powered by the open source Argos Translate library.",
+  "short_desc": "Free and Open Source Machine Translation API. 100% self-hosted, offline capable and easy to setup.",
+  "author": "LibreTranslate",
+  "source": "https://github.com/LibreTranslate/LibreTranslate",
+  "form_fields": [],
+  "supported_architectures": [
+    "arm64",
+    "amd64"
+  ],
+  "created_at": 1691943801422,
+  "updated_at": 1772687998293,
+  "min_version": "4.5.0",
+  "icon": "logo.jpg"
+}

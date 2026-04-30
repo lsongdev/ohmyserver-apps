@@ -1,0 +1,27 @@
+{
+  "$schema": "../schema.json",
+  "name": "ViewTube",
+  "port": 8180,
+  "available": true,
+  "exposable": true,
+  "dynamic_config": true,
+  "id": "viewtube",
+  "platform_version": 17,
+  "version": "0.17.0",
+  "categories": [
+    "media"
+  ],
+  "description": "The open source, privacy-conscious way to enjoy your favorite YouTube content.",
+  "short_desc": "The open source, privacy-conscious way to enjoy your favorite YouTube content.",
+  "author": "ViewTube",
+  "source": "https://github.com/ViewTube/viewtube",
+  "form_fields": [],
+  "supported_architectures": [
+    "arm64",
+    "amd64"
+  ],
+  "created_at": 1691943801422,
+  "updated_at": 1761338378520,
+  "min_version": "4.5.0",
+  "icon": "logo.jpg"
+}

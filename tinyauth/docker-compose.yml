@@ -1,0 +1,39 @@
+services:
+  tinyauth:
+    container_name: tinyauth
+    image: ghcr.io/steveiliop56/tinyauth:v5.0.7
+    restart: unless-stopped
+    environment:
+      - TINYAUTH_UI_TITLE=${TINYAUTH_APP_TITLE}
+      - TINYAUTH_APPURL=${TINYAUTH_APP_URL}
+      - TINYAUTH_AUTH_USERS=${TINYAUTH_USERS}
+      - TINYAUTH_OAUTH_PROVIDERS_GITHUB_CLIENTID=${TINYAUTH_GITHUB_CLIENT_ID}
+      - TINYAUTH_OAUTH_PROVIDERS_GITHUB_CLIENTSECRET=${TINYAUTH_GITHUB_CLIENT_SECRET}
+      - TINYAUTH_OAUTH_PROVIDERS_GOOGLE_CLIENTID=${TINYAUTH_GOOGLE_CLIENT_ID}
+      - TINYAUTH_OAUTH_PROVIDERS_GOOGLE_CLIENTSECRET=${TINYAUTH_GOOGLE_CLIENT_SECRET}
+      - TINYAUTH_OAUTH_WHITELIST=${TINYAUTH_OAUTH_WHITELIST}
+    volumes:
+      - ${APP_DATA_DIR}/data:/data
+    networks:
+      - default_network
+    labels:
+      traefik.enable: true
+      traefik.http.middlewares.tinyauth-web-redirect.redirectscheme.scheme: https
+      traefik.http.services.tinyauth.loadbalancer.server.port: 3000
+      traefik.http.routers.tinyauth-insecure.rule: Host(`${APP_DOMAIN}`)
+      traefik.http.routers.tinyauth-insecure.entrypoints: web
+      traefik.http.routers.tinyauth-insecure.service: tinyauth
+      traefik.http.routers.tinyauth-insecure.middlewares: tinyauth-web-redirect
+      traefik.http.routers.tinyauth.rule: Host(`${APP_DOMAIN}`)
+      traefik.http.routers.tinyauth.entrypoints: websecure
+      traefik.http.routers.tinyauth.service: tinyauth
+      traefik.http.routers.tinyauth.tls.certresolver: myresolver
+      traefik.http.routers.tinyauth-local-insecure.rule: Host(`tinyauth.${LOCAL_DOMAIN}`)
+      traefik.http.routers.tinyauth-local-insecure.entrypoints: web
+      traefik.http.routers.tinyauth-local-insecure.service: tinyauth
+      traefik.http.routers.tinyauth-local-insecure.middlewares: tinyauth-web-redirect
+      traefik.http.routers.tinyauth-local.rule: Host(`tinyauth.${LOCAL_DOMAIN}`)
+      traefik.http.routers.tinyauth-local.entrypoints: websecure
+      traefik.http.routers.tinyauth-local.service: tinyauth
+      traefik.http.routers.tinyauth-local.tls: true
+      runtipi.managed: true

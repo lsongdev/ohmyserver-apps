@@ -1,0 +1,28 @@
+{
+  "$schema": "../schema.json",
+  "name": "Write-Freely",
+  "available": true,
+  "exposable": true,
+  "dynamic_config": true,
+  "port": 8574,
+  "id": "write-freely",
+  "platform_version": 8,
+  "version": "0.16",
+  "categories": [
+    "social"
+  ],
+  "description": "A clean, Markdown-based publishing platform made for writers. Write together and build a community.",
+  "short_desc": "Markdown-based publishing platform.",
+  "author": "nephatrine",
+  "source": "https://hub.docker.com/r/nephatrine/write-freely",
+  "website": "https://writefreely.org/",
+  "supported_architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "created_at": 1729978316000,
+  "updated_at": 1761338378524,
+  "force_pull": false,
+  "min_version": "4.5.0",
+  "icon": "logo.jpg"
+}

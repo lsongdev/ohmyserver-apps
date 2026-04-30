@@ -1,0 +1,29 @@
+{
+  "$schema": "../schema.json",
+  "name": "EMQX Open Source",
+  "port": 18083,
+  "available": true,
+  "exposable": true,
+  "dynamic_config": true,
+  "id": "emqx",
+  "platform_version": 28,
+  "version": "6.2.0",
+  "categories": [
+    "utilities",
+    "automation"
+  ],
+  "description": "The most scalable open-source MQTT broker for IoT, IIoT, and connected vehicles.",
+  "short_desc": "Scalable open-source MQTT broker.",
+  "author": "EMQ Technologies Co., Ltd.",
+  "source": "https://github.com/emqx/emqx",
+  "website": "https://www.emqx.com/",
+  "form_fields": [],
+  "supported_architectures": [
+    "arm64",
+    "amd64"
+  ],
+  "created_at": 1727127845000,
+  "updated_at": 1775109186217,
+  "min_version": "4.5.0",
+  "icon": "logo.jpg"
+}

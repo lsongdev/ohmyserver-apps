@@ -1,0 +1,28 @@
+{
+  "$schema": "../schema.json",
+  "name": "Plex",
+  "available": true,
+  "exposable": true,
+  "dynamic_config": true,
+  "port": 32400,
+  "id": "plex",
+  "platform_version": 47,
+  "version": "1.43.1",
+  "url_suffix": "/web",
+  "categories": [
+    "media"
+  ],
+  "description": "",
+  "short_desc": "Stream Movies & TV Shows",
+  "author": "plexinc",
+  "source": "https://github.com/plexinc/pms-docker",
+  "form_fields": [],
+  "supported_architectures": [
+    "arm64",
+    "amd64"
+  ],
+  "created_at": 1691943801422,
+  "updated_at": 1775714389841,
+  "min_version": "4.5.0",
+  "icon": "logo.jpg"
+}

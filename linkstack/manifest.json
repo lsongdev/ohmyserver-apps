@@ -1,0 +1,27 @@
+{
+  "$schema": "../schema.json",
+  "name": "LinkStack",
+  "port": 8154,
+  "available": true,
+  "exposable": true,
+  "dynamic_config": true,
+  "id": "linkstack",
+  "platform_version": 6,
+  "version": "latest",
+  "categories": [
+    "media"
+  ],
+  "description": "LinkStack is a highly customizable link sharing platform with an intuitive, easy to use user interface",
+  "short_desc": "LinkStack is a highly customizable link sharing platform with an intuitive, easy to use user interface",
+  "author": "LinkStackOrg",
+  "source": "https://github.com/LinkStackOrg/linkstack-docker",
+  "form_fields": [],
+  "supported_architectures": [
+    "arm64",
+    "amd64"
+  ],
+  "created_at": 1691943801422,
+  "updated_at": 1761338378479,
+  "min_version": "4.5.0",
+  "icon": "logo.jpg"
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "../schema.json",
+  "name": "Kometa",
+  "available": true,
+  "exposable": false,
+  "dynamic_config": true,
+  "no_gui": true,
+  "port": 9996,
+  "id": "kometa",
+  "platform_version": 11,
+  "version": "2.3.1",
+  "categories": [
+    "utilities",
+    "media"
+  ],
+  "author": "Kometa-Team",
+  "description": "Update metadata information for items in plex as well as automatically build collections and playlists.",
+  "short_desc": "Overlays, Collections & Playlists for Plex.",
+  "source": "https://github.com/Kometa-Team/Kometa",
+  "form_fields": [],
+  "supported_architectures": [
+    "arm64",
+    "amd64"
+  ],
+  "created_at": 1691943801422,
+  "updated_at": 1775195531537,
+  "min_version": "4.5.0",
+  "icon": "logo.jpg"
+}

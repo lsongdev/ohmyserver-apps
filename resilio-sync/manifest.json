@@ -1,0 +1,29 @@
+{
+  "$schema": "../schema.json",
+  "name": "Resilio",
+  "port": 8113,
+  "available": true,
+  "dynamic_config": true,
+  "id": "resilio-sync",
+  "platform_version": 12,
+  "version": "3.1.2",
+  "uid": 1000,
+  "gid": 1000,
+  "categories": [
+    "data",
+    "utilities"
+  ],
+  "description": "Resilio Sync is a fast, reliable, and simple file sync and share solution, powered by P2P technology",
+  "short_desc": "Fast, reliable, and simple file sync and share solution.",
+  "author": "Resilio, Inc.",
+  "source": "https://github.com/bt-sync",
+  "form_fields": [],
+  "supported_architectures": [
+    "arm64",
+    "amd64"
+  ],
+  "created_at": 1691943801422,
+  "updated_at": 1763527270085,
+  "min_version": "4.5.0",
+  "icon": "logo.jpg"
+}

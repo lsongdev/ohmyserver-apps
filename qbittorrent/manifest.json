@@ -1,0 +1,27 @@
+{
+  "$schema": "../schema.json",
+  "name": "qBittorrent",
+  "available": true,
+  "exposable": true,
+  "dynamic_config": true,
+  "port": 8133,
+  "id": "qbittorrent",
+  "platform_version": 31,
+  "version": "5.1.4",
+  "categories": [
+    "utilities"
+  ],
+  "description": "qBittorrent is a fast, easy, and free BitTorrent client.",
+  "short_desc": "Fast, easy, and free BitTorrent client",
+  "author": "qBittorrent project",
+  "source": "https://github.com/qbittorrent/qBittorrent",
+  "form_fields": [],
+  "supported_architectures": [
+    "arm64",
+    "amd64"
+  ],
+  "created_at": 1691943801422,
+  "updated_at": 1763873300093,
+  "min_version": "4.5.0",
+  "icon": "logo.jpg"
+}

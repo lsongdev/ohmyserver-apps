@@ -1,0 +1,28 @@
+{
+  "$schema": "../schema.json",
+  "name": "Memos",
+  "available": true,
+  "exposable": true,
+  "dynamic_config": true,
+  "port": 5230,
+  "id": "memos",
+  "platform_version": 55,
+  "version": "0.28.0",
+  "categories": [
+    "utilities"
+  ],
+  "description": "Memo hub for knowledge management and collaboration.",
+  "short_desc": "Memo hub for knowledge management and collaboration.",
+  "author": "boojack",
+  "website": "https://usememos.com/",
+  "source": "https://github.com/usememos/memos",
+  "form_fields": [],
+  "supported_architectures": [
+    "arm64",
+    "amd64"
+  ],
+  "created_at": 1691943801422,
+  "updated_at": 1777358917505,
+  "min_version": "4.5.0",
+  "icon": "logo.jpg"
+}
