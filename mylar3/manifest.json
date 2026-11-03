@@ -4,7 +4,6 @@
   "port": 8174,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "mylar3",
   "platform_version": 5,
   "version": "v0.7.1-ls84",

@@ -4,7 +4,6 @@
   "port": 8222,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "wallos",
   "platform_version": 137,
   "version": "4.8.4",

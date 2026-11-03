@@ -3,7 +3,6 @@
   "name": "Matter Server",
   "available": true,
   "exposable": false,
-  "dynamic_config": true,
   "no_gui": true,
   "port": 9997,
   "id": "matter-server",

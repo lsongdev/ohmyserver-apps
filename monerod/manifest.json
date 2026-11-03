@@ -3,7 +3,6 @@
   "name": "Monero Daemon",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "no_gui": true,
   "port": 18080,
   "id": "monerod",

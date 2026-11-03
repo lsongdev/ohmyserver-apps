@@ -4,7 +4,6 @@
   "port": 8172,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "excalidraw",
   "platform_version": 6,
   "version": "latest",

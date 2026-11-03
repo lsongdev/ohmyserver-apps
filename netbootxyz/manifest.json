@@ -3,7 +3,6 @@
   "available": true,
   "port": 8675,
   "exposable": true,
-  "dynamic_config": true,
   "id": "netbootxyz",
   "description": "Your favorite operating systems in one place. A network-based bootable operating system installer based on iPXE.",
   "platform_version": 13,

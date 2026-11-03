@@ -3,7 +3,6 @@
   "name": "Kapowarr",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8194,
   "id": "kapowarr",
   "platform_version": 12,

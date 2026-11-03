@@ -3,7 +3,6 @@
   "name": "FreshRSS",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8086,
   "id": "freshrss",
   "platform_version": 23,

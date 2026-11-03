@@ -16,7 +16,6 @@
   "source": "https://github.com/stonith404/pingvin-share",
   "website": "https://pingvin-share.dev.eliasschneider.com",
   "exposable": true,
-  "dynamic_config": true,
   "supported_architectures": [
     "arm64",
     "amd64"

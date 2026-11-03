@@ -3,7 +3,6 @@
   "name": "Paperless-ngx",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8012,
   "id": "paperless-ngx",
   "platform_version": 119,

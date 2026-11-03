@@ -4,7 +4,6 @@
   "port": 14333,
   "available": true,
   "exposable": false,
-  "dynamic_config": true,
   "id": "cloudflared",
   "platform_version": 44,
   "version": "2026.3.0",

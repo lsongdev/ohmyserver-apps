@@ -4,7 +4,6 @@
   "port": 8132,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "librephotos",
   "platform_version": 18,
   "version": "2023w48",

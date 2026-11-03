@@ -4,7 +4,6 @@
   "port": 8167,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "mixpost",
   "platform_version": 27,
   "version": "v2.6.0",

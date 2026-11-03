@@ -4,7 +4,6 @@
   "port": 8185,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "hammond",
   "platform_version": 9,
   "version": "0.0.24",

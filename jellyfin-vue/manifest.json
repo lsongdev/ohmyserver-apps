@@ -4,7 +4,6 @@
   "port": 8202,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "jellyfin-vue",
   "platform_version": 6,
   "version": "unstable.2024-10-14.a47a7d5",

@@ -3,7 +3,6 @@
   "port": 8825,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "octobot",
   "platform_version": 24,
   "version": "2.1.13",

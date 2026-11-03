@@ -4,7 +4,6 @@
   "port": 8210,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "force_expose": true,
   "generate_vapid_keys": true,
   "id": "mastodon",

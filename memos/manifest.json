@@ -3,7 +3,6 @@
   "name": "Memos",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 5230,
   "id": "memos",
   "platform_version": 55,

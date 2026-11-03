@@ -4,7 +4,6 @@
   "available": true,
   "port": 8800,
   "exposable": true,
-  "dynamic_config": true,
   "id": "seedsync",
   "description": "SeedSync is a tool to sync the files on a remote Linux server (like your seedbox, for example). It uses LFTP to transfer files fast!",
   "platform_version": 5,

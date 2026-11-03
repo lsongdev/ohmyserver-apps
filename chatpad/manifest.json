@@ -3,7 +3,6 @@
   "name": "Chatpad AI",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8179,
   "id": "chatpad",
   "platform_version": 7,

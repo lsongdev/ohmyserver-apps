@@ -3,7 +3,6 @@
   "name": "Pi-hole",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8081,
   "id": "pihole",
   "platform_version": 40,

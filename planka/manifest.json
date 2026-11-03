@@ -4,7 +4,6 @@
   "port": 8016,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "planka",
   "platform_version": 54,
   "version": "1.26.3",

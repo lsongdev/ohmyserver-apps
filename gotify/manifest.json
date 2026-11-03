@@ -5,7 +5,6 @@
   "port": 8129,
   "id": "gotify",
   "exposable": true,
-  "dynamic_config": true,
   "platform_version": 18,
   "version": "2.9.1",
   "categories": [

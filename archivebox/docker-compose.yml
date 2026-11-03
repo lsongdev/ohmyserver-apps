@@ -20,7 +20,5 @@ services:
       - 'TIMEOUT=${ARCHIVEBOX_TIMEOUT-60}'
       - 'CHECK_SSL_VALIDITY=${ARCHIVEBOX_CHECK_SSL_VALIDITY-true}'
       - 'SAVE_ARCHIVE_DOT_ORG=${ARCHIVEBOX_SAVE_ARCHIVE_DOT_ORGE-true}'
-    x-runtipi:
-      internal_port: 8015
-      is_main: true
-
+    ports:
+      - ${APP_PORT}:8015

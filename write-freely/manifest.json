@@ -3,7 +3,6 @@
   "name": "Write-Freely",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8574,
   "id": "write-freely",
   "platform_version": 8,

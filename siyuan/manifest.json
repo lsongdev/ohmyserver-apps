@@ -15,7 +15,6 @@
   "website": "https://b3log.org/siyuan/en/",
   "source": "https://github.com/siyuan-note/siyuan",
   "exposable": true,
-  "dynamic_config": true,
   "supported_architectures": [
     "arm64",
     "amd64"

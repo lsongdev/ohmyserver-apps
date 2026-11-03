@@ -3,7 +3,6 @@
   "name": "Crafty",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8456,
   "id": "crafty",
   "https": true,

@@ -16,7 +16,6 @@
   "source": "https://github.com/apache/guacamole-server",
   "website": "https://guacamole.apache.org",
   "exposable": true,
-  "dynamic_config": true,
   "supported_architectures": [
     "amd64"
   ],

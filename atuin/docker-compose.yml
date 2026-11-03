@@ -9,9 +9,8 @@ services:
       - ATUIN_HOST=0.0.0.0
       - ATUIN_OPEN_REGISTRATION=${ATUIN_ALLOW_REGISTRATION}
       - ATUIN_DB_URI=postgres://atuin:${ATUIN_DB_PASSWORD}@atuin-db/atuin
-    x-runtipi:
-      internal_port: 8888
-      is_main: true
+    ports:
+      - ${APP_PORT}:8888
   atuin-db:
     image: postgres:14
     volumes:

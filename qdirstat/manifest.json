@@ -4,7 +4,6 @@
   "port": 7125,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "qdirstat",
   "platform_version": 4,
   "version": "1.8.1-ls82",

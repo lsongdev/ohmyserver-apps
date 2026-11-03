@@ -3,7 +3,6 @@
   "name": "MDNS Repeater",
   "available": true,
   "exposable": false,
-  "dynamic_config": true,
   "no_gui": true,
   "port": 9998,
   "id": "mdns-repeater",

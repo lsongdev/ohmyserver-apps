@@ -4,7 +4,6 @@
   "port": 8211,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "speedtest-tracker",
   "platform_version": 107,
   "version": "1.14.0",

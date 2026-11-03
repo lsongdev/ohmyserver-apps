@@ -3,7 +3,6 @@
   "name": "Booksonic",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8040,
   "platform_version": 8,
   "version": "2201.1.0",

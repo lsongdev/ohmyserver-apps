@@ -3,7 +3,6 @@
   "name": "Readarr",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8112,
   "id": "readarr",
   "platform_version": 46,

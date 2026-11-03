@@ -7,7 +7,5 @@ services:
       - ASSET_URL=${APP_PROTOCOL:-http}://${APP_DOMAIN}
       - APP_URL=${APP_PROTOCOL:-http}://${APP_DOMAIN}
       - APP_KEY=${TWOFAUTH_APP_KEY}
-    x-runtipi:
-      internal_port: 8000
-      is_main: true
-
+    ports:
+      - ${APP_PORT}:8000

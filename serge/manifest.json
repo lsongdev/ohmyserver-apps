@@ -3,7 +3,6 @@
   "name": "Serge",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8008,
   "id": "serge",
   "platform_version": 13,

@@ -4,7 +4,6 @@
   "port": 8152,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "openbooks",
   "platform_version": 6,
   "url_suffix": "/openbooks/",

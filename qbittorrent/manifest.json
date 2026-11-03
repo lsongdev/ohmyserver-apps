@@ -3,7 +3,6 @@
   "name": "qBittorrent",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8133,
   "id": "qbittorrent",
   "platform_version": 31,

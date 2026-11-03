@@ -3,7 +3,6 @@
   "name": "Sonarr",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8098,
   "id": "sonarr",
   "platform_version": 27,

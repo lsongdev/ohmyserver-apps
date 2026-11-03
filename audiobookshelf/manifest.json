@@ -3,7 +3,6 @@
   "name": "Audiobookshelf",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 13378,
   "id": "audiobookshelf",
   "platform_version": 72,

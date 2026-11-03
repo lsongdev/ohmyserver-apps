@@ -3,7 +3,6 @@
   "name": "Jellyfin",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8091,
   "id": "jellyfin",
   "platform_version": 41,

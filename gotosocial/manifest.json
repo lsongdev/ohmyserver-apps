@@ -4,7 +4,6 @@
   "port": 8188,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "force_expose": true,
   "id": "gotosocial",
   "platform_version": 41,

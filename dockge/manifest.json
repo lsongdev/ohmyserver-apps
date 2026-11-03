@@ -4,7 +4,6 @@
   "port": 8768,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "dockge",
   "platform_version": 14,
   "version": "1.5.0",

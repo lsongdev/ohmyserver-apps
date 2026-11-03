@@ -3,7 +3,6 @@
   "name": "Baïkal",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 6556,
   "id": "baikal",
   "platform_version": 9,

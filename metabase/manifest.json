@@ -4,7 +4,6 @@
   "port": 8680,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "metabase",
   "platform_version": 82,
   "version": "v0.60.3",

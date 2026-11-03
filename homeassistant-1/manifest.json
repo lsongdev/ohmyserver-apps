@@ -4,7 +4,6 @@
   "port": 8209,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "homeassistant-1",
   "platform_version": 123,
   "version": "2026.4.4",

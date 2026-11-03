@@ -4,7 +4,6 @@
   "available": true,
   "exposable": true,
   "no_gui": true,
-  "dynamic_config": true,
   "port": 25565,
   "id": "minecraft-server",
   "platform_version": 6,

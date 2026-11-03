@@ -20,7 +20,6 @@
     "arm64",
     "amd64"
   ],
-  "dynamic_config": true,
   "created_at": 1691943801422,
   "updated_at": 1777475409637,
   "min_version": "4.7.0",

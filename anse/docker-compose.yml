@@ -3,7 +3,5 @@ services:
     image: 'ddiu8081/anse:v1.1.11'
     environment:
       - 'PORT=8014'
-    x-runtipi:
-      internal_port: 8014
-      is_main: true
-
+    ports:
+      - ${APP_PORT}:8014

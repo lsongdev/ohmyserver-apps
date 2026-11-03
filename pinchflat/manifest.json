@@ -4,7 +4,6 @@
   "port": 8945,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "pinchflat",
   "platform_version": 29,
   "version": "v2025.6.6",

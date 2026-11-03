@@ -9,7 +9,5 @@ services:
       - 'PUID=1000'
       - 'PGID=1000'
       - 'TZ=${TZ}'
-    x-runtipi:
-      internal_port: 6767
-      is_main: true
-
+    ports:
+      - ${APP_PORT}:6767

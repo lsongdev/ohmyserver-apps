@@ -3,7 +3,6 @@
   "name": "Tailscale",
   "available": true,
   "exposable": false,
-  "dynamic_config": true,
   "no_gui": true,
   "port": 8093,
   "id": "tailscale",

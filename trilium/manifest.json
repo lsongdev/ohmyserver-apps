@@ -3,7 +3,6 @@
   "available": true,
   "port": 8267,
   "exposable": true,
-  "dynamic_config": true,
   "id": "trilium",
   "description": "Trilium Notes is a hierarchical note taking application with focus on building large personal knowledge bases. ",
   "platform_version": 37,

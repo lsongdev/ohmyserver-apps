@@ -3,7 +3,6 @@
   "name": "Firefly III",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8115,
   "platform_version": 17,
   "version": "version-6",

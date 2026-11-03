@@ -3,7 +3,6 @@
   "name": "File Browser",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8096,
   "id": "filebrowser",
   "platform_version": 9,

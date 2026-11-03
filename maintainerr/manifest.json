@@ -2,7 +2,6 @@
   "name": "Maintainerr",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8030,
   "id": "maintainerr",
   "platform_version": 54,

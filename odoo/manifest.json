@@ -3,7 +3,6 @@
   "port": 8017,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "odoo",
   "platform_version": 9,
   "version": "19",

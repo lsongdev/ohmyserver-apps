@@ -3,7 +3,6 @@
   "name": "Calibre-Web - EBook Reader",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8100,
   "platform_version": 17,
   "version": "0.6.26",

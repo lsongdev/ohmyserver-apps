@@ -4,7 +4,6 @@
   "port": 8162,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "mstream",
   "platform_version": 5,
   "version": "v5.12.2-ls190",

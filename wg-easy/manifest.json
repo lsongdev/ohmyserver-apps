@@ -3,7 +3,6 @@
   "name": "Wireguard (v14)",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "deprecated": true,
   "port": 8082,
   "id": "wg-easy",

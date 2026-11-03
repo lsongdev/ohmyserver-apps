@@ -3,7 +3,6 @@
   "name": "Firefly III Data Importer",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8150,
   "platform_version": 13,
   "version": "version-2",

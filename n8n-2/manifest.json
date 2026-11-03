@@ -3,7 +3,6 @@
   "name": "n8n v2",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 5678,
   "id": "n8n-2",
   "platform_version": 24,

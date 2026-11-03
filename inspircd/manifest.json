@@ -16,7 +16,6 @@
   "source": "https://github.com/inspircd/inspircd",
   "website": "https://www.inspircd.org",
   "exposable": true,
-  "dynamic_config": true,
   "supported_architectures": [
     "arm64",
     "amd64"

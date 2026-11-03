@@ -4,7 +4,6 @@
   "port": 6167,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "force_expose": true,
   "no_gui": true,
   "id": "matrix-conduit",

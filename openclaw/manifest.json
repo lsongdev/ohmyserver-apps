@@ -6,7 +6,6 @@
   "gid": 1000,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "openclaw",
   "platform_version": 1,
   "version": "latest",

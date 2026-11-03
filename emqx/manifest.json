@@ -4,7 +4,6 @@
   "port": 18083,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "emqx",
   "platform_version": 28,
   "version": "6.2.0",

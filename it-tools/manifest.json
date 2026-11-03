@@ -4,7 +4,6 @@
   "port": 8171,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "it-tools",
   "platform_version": 6,
   "version": "latest",

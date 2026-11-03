@@ -3,7 +3,6 @@
   "available": true,
   "port": 8435,
   "exposable": true,
-  "dynamic_config": true,
   "id": "nextgba",
   "description": "All of your favorite gameboy games in your browser",
   "platform_version": 8,

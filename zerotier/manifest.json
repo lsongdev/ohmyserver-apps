@@ -2,7 +2,6 @@
   "$schema": "../schema.json",
   "name": "ZeroTier",
   "available": true,
-  "dynamic_config": true,
   "no_gui": true,
   "port": 9993,
   "id": "zerotier",

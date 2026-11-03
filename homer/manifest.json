@@ -18,7 +18,6 @@
     "arm64",
     "amd64"
   ],
-  "dynamic_config": true,
   "form_fields": [],
   "created_at": 1729171012912,
   "updated_at": 1776579087330,

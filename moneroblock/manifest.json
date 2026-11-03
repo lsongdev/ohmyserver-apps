@@ -3,7 +3,6 @@
   "name": "Moneroblock",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 31312,
   "id": "moneroblock",
   "platform_version": 6,

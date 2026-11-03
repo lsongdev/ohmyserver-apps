@@ -3,7 +3,6 @@
   "name": "Hello World",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8000,
   "id": "hello-world",
   "platform_version": 6,

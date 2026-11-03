@@ -4,7 +4,6 @@
   "port": 8250,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "metube",
   "platform_version": 6,
   "version": "latest",

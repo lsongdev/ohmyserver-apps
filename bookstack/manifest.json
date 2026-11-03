@@ -3,7 +3,6 @@
   "name": "Bookstack",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8119,
   "id": "bookstack",
   "platform_version": 38,

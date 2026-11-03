@@ -3,7 +3,6 @@
   "name": "Syncthing",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8090,
   "id": "syncthing",
   "platform_version": 28,

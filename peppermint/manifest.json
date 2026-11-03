@@ -4,7 +4,6 @@
   "port": 8216,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "peppermint",
   "platform_version": 9,
   "version": "latest",

@@ -19,7 +19,6 @@
   ],
   "created_at": 1745082405284,
   "updated_at": 1761338378522,
-  "dynamic_config": true,
   "form_fields": [],
   "min_version": "4.5.0",
   "icon": "logo.jpg"

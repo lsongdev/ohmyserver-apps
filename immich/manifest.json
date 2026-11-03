@@ -3,7 +3,6 @@
   "name": "Immich",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8128,
   "id": "immich",
   "platform_version": 206,

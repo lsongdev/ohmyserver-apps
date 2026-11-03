@@ -4,7 +4,6 @@
   "port": 8546,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "ctfd",
   "platform_version": 19,
   "version": "3.8.4",

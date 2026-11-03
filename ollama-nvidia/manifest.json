@@ -3,7 +3,6 @@
   "name": "Ollama - Nvidia",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 11435,
   "id": "ollama-nvidia",
   "platform_version": 121,

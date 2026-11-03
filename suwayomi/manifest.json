@@ -2,7 +2,6 @@
   "name": "Suwayomi",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 4567,
   "id": "suwayomi",
   "platform_version": 45,

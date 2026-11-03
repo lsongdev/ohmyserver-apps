@@ -4,7 +4,6 @@
   "port": 8195,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "forgejo",
   "platform_version": 41,
   "version": "15.0.0",

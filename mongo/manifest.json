@@ -16,7 +16,6 @@
   "source": "https://github.com/mongodb/mongo",
   "website": "https://www.mongodb.com/",
   "exposable": true,
-  "dynamic_config": true,
   "no_gui": true,
   "form_fields": [
     {

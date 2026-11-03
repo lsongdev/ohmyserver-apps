@@ -3,7 +3,6 @@
   "name": "Notemark",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8567,
   "id": "notemark",
   "platform_version": 49,

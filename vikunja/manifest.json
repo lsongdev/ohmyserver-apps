@@ -3,7 +3,6 @@
   "name": "Vikunja",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8135,
   "id": "vikunja",
   "categories": [

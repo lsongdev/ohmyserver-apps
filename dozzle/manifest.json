@@ -3,7 +3,6 @@
   "name": "Dozzle",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8013,
   "id": "dozzle",
   "platform_version": 149,

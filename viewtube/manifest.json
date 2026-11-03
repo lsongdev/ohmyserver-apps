@@ -4,7 +4,6 @@
   "port": 8180,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "viewtube",
   "platform_version": 17,
   "version": "0.17.0",

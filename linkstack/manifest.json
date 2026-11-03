@@ -4,7 +4,6 @@
   "port": 8154,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "linkstack",
   "platform_version": 6,
   "version": "latest",

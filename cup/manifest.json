@@ -19,7 +19,6 @@
     "amd64"
   ],
   "form_fields": [],
-  "dynamic_config": true,
   "created_at": 1691943801422,
   "updated_at": 1763786253404,
   "min_version": "4.5.0",

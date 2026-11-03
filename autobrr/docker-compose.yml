@@ -6,7 +6,5 @@ services:
       - '${APP_DATA_DIR}/data/autobrr:/config'
     environment:
       - 'TZ=${TZ}'
-    x-runtipi:
-      internal_port: 7474
-      is_main: true
-
+    ports:
+      - ${APP_PORT}:7474

@@ -3,7 +3,6 @@
   "name": "Radarr",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8088,
   "id": "radarr",
   "platform_version": 41,

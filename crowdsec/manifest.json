@@ -4,7 +4,6 @@
   "port": 8679,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "crowdsec",
   "platform_version": 23,
   "version": "v1.7.7",

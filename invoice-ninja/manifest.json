@@ -4,7 +4,6 @@
   "port": 8881,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "invoice-ninja",
   "platform_version": 114,
   "version": "5.13",

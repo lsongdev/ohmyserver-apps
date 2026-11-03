@@ -4,7 +4,6 @@
   "port": 8270,
   "available": true,
   "exposable": false,
-  "dynamic_config": true,
   "id": "gladys",
   "platform_version": 82,
   "version": "v4.72.1",

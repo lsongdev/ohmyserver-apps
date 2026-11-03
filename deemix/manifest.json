@@ -4,7 +4,6 @@
   "port": 6595,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "deemix",
   "platform_version": 6,
   "version": "latest",

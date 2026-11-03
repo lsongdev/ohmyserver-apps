@@ -4,7 +4,6 @@
   "port": 9000,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "authentik-1",
   "platform_version": 22,
   "version": "2026.2.2",

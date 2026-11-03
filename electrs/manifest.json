@@ -3,7 +3,6 @@
   "name": "Electrs",
   "available": true,
   "exposable": false,
-  "dynamic_config": true,
   "no_gui": false,
   "port": 3006,
   "id": "electrs",

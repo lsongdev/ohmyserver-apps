@@ -25,9 +25,8 @@ services:
       driver: 'json-file'
       options:
         max-size: '1000m'
-    x-runtipi:
-      internal_port: 3010
-      is_main: true
+    ports:
+      - ${APP_PORT}:3010
   affine-redis:
     image: 'redis'
     volumes:

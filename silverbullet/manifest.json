@@ -4,7 +4,6 @@
   "port": 8214,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "silverbullet",
   "platform_version": 32,
   "version": "2.6.1",

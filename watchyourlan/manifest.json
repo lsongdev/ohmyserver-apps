@@ -29,7 +29,6 @@
       "env_variable": "WATCHYOURLAN_IFACES"
     }
   ],
-  "dynamic_config": true,
   "created_at": 1724134338800,
   "updated_at": 1761338378521,
   "min_version": "4.5.0",

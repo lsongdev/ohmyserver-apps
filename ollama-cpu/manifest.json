@@ -3,7 +3,6 @@
   "name": "Ollama - CPU",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 11436,
   "id": "ollama-cpu",
   "platform_version": 121,

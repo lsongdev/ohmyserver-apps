@@ -3,7 +3,6 @@
   "available": true,
   "port": 8645,
   "exposable": true,
-  "dynamic_config": true,
   "id": "penpot",
   "description": "Penpot - The Open-Source design & prototyping platform.",
   "platform_version": 5,

@@ -4,7 +4,6 @@
   "port": 8141,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "rss",
   "platform_version": 20,
   "version": "v1.6.5",

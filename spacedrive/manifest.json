@@ -3,7 +3,6 @@
   "name": "Spacedrive",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 9300,
   "id": "spacedrive",
   "platform_version": 9,

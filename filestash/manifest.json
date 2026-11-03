@@ -4,7 +4,6 @@
   "port": 8189,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "filestash",
   "platform_version": 15,
   "version": "latest",

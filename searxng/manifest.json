@@ -3,7 +3,6 @@
   "name": "SearXNG",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8127,
   "id": "searxng",
   "platform_version": 10,

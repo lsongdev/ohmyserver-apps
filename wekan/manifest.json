@@ -4,7 +4,6 @@
   "port": 8678,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "wekan",
   "platform_version": 107,
   "version": "v9.00",

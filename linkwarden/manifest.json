@@ -4,7 +4,6 @@
   "port": 8199,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "linkwarden",
   "platform_version": 52,
   "version": "v2.14.1",

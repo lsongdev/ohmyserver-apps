@@ -4,7 +4,6 @@
   "port": 8193,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "min_version": "4.5.0",
   "id": "plausible-ce",
   "platform_version": 40,

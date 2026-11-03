@@ -14,7 +14,6 @@
   "source": "https://github.com/outline/outline",
   "website": "https://getoutline.com",
   "exposable": true,
-  "dynamic_config": true,
   "force_expose": true,
   "form_fields": [
     {

@@ -3,7 +3,6 @@
   "name": "Nitter",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8106,
   "id": "nitter",
   "platform_version": 7,

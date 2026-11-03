@@ -4,7 +4,5 @@ services:
     volumes:
       - '${APP_DATA_DIR}/config:/var/www/baikal/config'
       - '${APP_DATA_DIR}/specific:/var/www/baikal/Specific'
-    x-runtipi:
-      internal_port: 80
-      is_main: true
-
+    ports:
+      - ${APP_PORT}:80

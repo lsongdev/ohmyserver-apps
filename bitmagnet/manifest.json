@@ -4,7 +4,6 @@
   "port": 3335,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "bitmagnet",
   "platform_version": 28,
   "version": "0.10.0",

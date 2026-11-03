@@ -3,7 +3,6 @@
   "name": "Lodestone Core",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "no_gui": true,
   "port": 16662,
   "id": "lodestone-core",

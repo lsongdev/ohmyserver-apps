@@ -4,7 +4,6 @@
   "port": 8142,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "hedgedoc",
   "platform_version": 16,
   "version": "1.10.8",

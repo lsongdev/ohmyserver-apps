@@ -3,7 +3,6 @@
   "name": "gandi-livedns",
   "available": true,
   "exposable": false,
-  "dynamic_config": true,
   "no_gui": true,
   "id": "gandi-livedns",
   "port": 8134,

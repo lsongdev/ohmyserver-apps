@@ -15,7 +15,6 @@
   "source": "https://github.com/pomdtr/smallweb",
   "website": "https://smallweb.run",
   "exposable": true,
-  "dynamic_config": true,
   "supported_architectures": [
     "arm64",
     "amd64"

@@ -4,7 +4,6 @@
   "port": 5690,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "wizarr",
   "platform_version": 21,
   "version": "v2026.4.0",

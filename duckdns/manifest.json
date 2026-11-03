@@ -3,7 +3,6 @@
   "available": true,
   "port": 8026,
   "exposable": false,
-  "dynamic_config": true,
   "id": "duckdns",
   "description": "Duck DNS is a free service which will point a DNS (sub domains of duckdns.org) to an IP of your choice",
   "platform_version": 5,

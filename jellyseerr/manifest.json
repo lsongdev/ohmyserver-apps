@@ -3,7 +3,6 @@
   "name": "Jellyseerr",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "deprecated": true,
   "port": 8163,
   "id": "jellyseerr",

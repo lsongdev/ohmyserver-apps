@@ -4,7 +4,6 @@
   "port": 8155,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "uid": 1000,
   "gid": 1000,
   "id": "movary",

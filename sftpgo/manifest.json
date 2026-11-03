@@ -4,7 +4,6 @@
   "port": 8002,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "sftpgo",
   "platform_version": 16,
   "version": "2.7.1",

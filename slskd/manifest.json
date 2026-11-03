@@ -3,7 +3,6 @@
   "available": true,
   "port": 5030,
   "exposable": true,
-  "dynamic_config": true,
   "id": "slskd",
   "description": "A modern client-server application for the Soulseek file-sharing network.",
   "platform_version": 25,

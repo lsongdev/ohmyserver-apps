@@ -4,7 +4,6 @@
   "port": 8149,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "dokuwiki",
   "platform_version": 6,
   "version": "2024-02-06b-ls250",

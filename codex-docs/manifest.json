@@ -3,7 +3,6 @@
   "name": "CodeX.docs",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8101,
   "id": "codex-docs",
   "platform_version": 7,

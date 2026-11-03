@@ -1,7 +1,6 @@
 {
   "$schema": "../schema.json",
   "name": "Mempool",
-  "dynamic_config": true,
   "available": true,
   "exposable": true,
   "no_gui": false,

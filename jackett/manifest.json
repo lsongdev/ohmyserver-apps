@@ -3,7 +3,6 @@
   "name": "Jackett",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8097,
   "id": "jackett",
   "platform_version": 84,

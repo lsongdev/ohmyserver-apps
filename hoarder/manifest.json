@@ -36,7 +36,6 @@
     }
   ],
   "exposable": true,
-  "dynamic_config": true,
   "supported_architectures": [
     "amd64",
     "arm64"

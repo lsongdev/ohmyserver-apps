@@ -3,7 +3,6 @@
   "name": "Tube Archivist",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8120,
   "id": "tubearchivist",
   "platform_version": 37,

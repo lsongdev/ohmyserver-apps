@@ -4,7 +4,6 @@
   "port": 8268,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "budibase",
   "platform_version": 411,
   "version": "3.37.0",

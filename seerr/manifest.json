@@ -3,7 +3,6 @@
   "name": "Seerr",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 5055,
   "id": "seerr",
   "platform_version": 6,

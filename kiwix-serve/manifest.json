@@ -4,7 +4,6 @@
   "port": 8169,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "kiwix-serve",
   "platform_version": 5,
   "version": "3.7.0-2",

@@ -4,6 +4,7 @@ services:
     command: 'server'
     ports:
       - '9443:9443/tcp'
+      - ${APP_PORT}:9000
     volumes:
       - '${APP_DATA_DIR}/data/authentik-media:/media'
       - '${APP_DATA_DIR}/data/authentik-custom-templates:/templates'
@@ -15,9 +16,6 @@ services:
       - 'AUTHENTIK_SECRET_KEY=${AUTHENTIK_SECRET_KEY}'
     depends_on:
       - 'authentik-db'
-    x-runtipi:
-      internal_port: 9000
-      is_main: true
   authentik-worker:
     image: 'ghcr.io/goauthentik/server:2026.2.2'
     command: 'worker'

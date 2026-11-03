@@ -4,7 +4,6 @@
   "port": 8225,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "ghost-dev",
   "platform_version": 80,
   "version": "5.130.6",

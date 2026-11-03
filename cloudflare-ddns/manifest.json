@@ -3,7 +3,6 @@
   "name": "Cloudflare DDNS",
   "available": true,
   "exposable": false,
-  "dynamic_config": true,
   "no_gui": true,
   "id": "cloudflare-ddns",
   "platform_version": 7,

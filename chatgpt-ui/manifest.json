@@ -4,7 +4,6 @@
   "port": 8200,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "deprecated": true,
   "id": "chatgpt-ui",
   "platform_version": 17,

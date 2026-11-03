@@ -3,7 +3,6 @@
   "name": "Databag",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8201,
   "id": "databag",
   "platform_version": 6,

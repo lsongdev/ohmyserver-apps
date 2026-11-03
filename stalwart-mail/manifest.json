@@ -3,7 +3,6 @@
   "name": "Stalwart Mail",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "platform_version": 45,
   "version": "v0.16.2",
   "port": 8677,

@@ -3,7 +3,6 @@
   "available": true,
   "port": 4533,
   "exposable": true,
-  "dynamic_config": true,
   "id": "navidrome",
   "description": "Modern Music Server and Streamer compatible with Subsonic/Airsonic",
   "platform_version": 43,

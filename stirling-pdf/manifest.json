@@ -4,7 +4,6 @@
   "port": 8234,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "stirling-pdf",
   "platform_version": 128,
   "version": "2.10.0",

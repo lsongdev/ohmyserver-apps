@@ -4,7 +4,6 @@
   "port": 8139,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "deprecated": true,
   "id": "zipline",
   "platform_version": 21,

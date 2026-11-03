@@ -7,7 +7,3 @@ services:
       - 'PORT=45876'
       - 'KEY=${BESZEL_AGENT_KEY}'
     network_mode: 'host'
-    x-runtipi:
-      internal_port: 45876
-      is_main: true
-

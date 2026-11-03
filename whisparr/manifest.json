@@ -3,7 +3,6 @@
   "name": "Whisparr",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 6969,
   "id": "whisparr",
   "platform_version": 7,

@@ -3,7 +3,6 @@
   "name": "flatnotes",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "flatnotes",
   "port": 8137,
   "platform_version": 40,

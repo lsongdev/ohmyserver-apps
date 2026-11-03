@@ -4,7 +4,6 @@
   "port": 8175,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "kavita",
   "platform_version": 25,
   "version": "0.8.9",

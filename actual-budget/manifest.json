@@ -1,6 +1,5 @@
 {
   "$schema": "../schema.json",
-  "dynamic_config": true,
   "name": "Actual Budget",
   "available": true,
   "exposable": true,

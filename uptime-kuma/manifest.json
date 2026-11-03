@@ -3,7 +3,6 @@
   "name": "Uptime Kuma",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8125,
   "id": "uptime-kuma",
   "platform_version": 8,

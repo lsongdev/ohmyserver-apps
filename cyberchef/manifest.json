@@ -3,7 +3,6 @@
   "id": "cyberchef",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "short_desc": "The Cyber Swiss Army Knife",
   "author": "GCHQ",
   "port": 9080,

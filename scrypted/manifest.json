@@ -4,7 +4,6 @@
   "port": 10443,
   "available": true,
   "exposable": false,
-  "dynamic_config": true,
   "https": true,
   "id": "scrypted",
   "platform_version": 13,

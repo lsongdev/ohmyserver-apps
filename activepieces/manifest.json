@@ -3,7 +3,6 @@
   "available": true,
   "port": 8605,
   "exposable": true,
-  "dynamic_config": true,
   "id": "activepieces",
   "description": "Your friendliest open source all-in-one automation tool.",
   "platform_version": 157,

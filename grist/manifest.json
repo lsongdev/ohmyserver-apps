@@ -3,7 +3,6 @@
   "available": true,
   "port": 8484,
   "exposable": true,
-  "dynamic_config": true,
   "id": "grist",
   "description": "Grist is a modern relational spreadsheet. It combines the flexibility of a spreadsheet with the robustness of a database to organize your data and make you more productive.",
   "platform_version": 48,

@@ -3,7 +3,6 @@
   "name": "Transmission",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8089,
   "requirements": {
     "ports": [

@@ -3,7 +3,6 @@
   "name": "Halo",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8092,
   "id": "halo",
   "platform_version": 82,

@@ -4,7 +4,6 @@
   "port": 8158,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "autobrr",
   "platform_version": 72,
   "version": "v1.76.0",

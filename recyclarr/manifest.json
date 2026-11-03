@@ -4,7 +4,6 @@
   "port": 1111,
   "available": true,
   "exposable": false,
-  "dynamic_config": true,
   "no_gui": true,
   "uid": 1000,
   "gid": 1000,

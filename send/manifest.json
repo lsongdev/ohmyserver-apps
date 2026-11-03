@@ -3,7 +3,6 @@
   "name": "Send",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8126,
   "id": "send",
   "platform_version": 7,

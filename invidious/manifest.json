@@ -3,7 +3,6 @@
   "name": "Invidious",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8095,
   "id": "invidious",
   "version": "master",

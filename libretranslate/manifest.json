@@ -3,7 +3,6 @@
   "name": "LibreTranslate",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8121,
   "id": "libretranslate",
   "platform_version": 35,

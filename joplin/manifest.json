@@ -3,7 +3,6 @@
   "name": "Joplin Server",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8099,
   "id": "joplin",
   "platform_version": 25,

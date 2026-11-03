@@ -21,7 +21,6 @@
   ],
   "created_at": 1741025885292,
   "updated_at": 1776752257799,
-  "dynamic_config": true,
   "form_fields": [
     {
       "type": "random",

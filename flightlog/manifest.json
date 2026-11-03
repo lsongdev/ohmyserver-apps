@@ -3,7 +3,6 @@
   "name": "Flightlog",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8934,
   "id": "flightlog",
   "platform_version": 14,

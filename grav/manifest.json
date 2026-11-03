@@ -4,7 +4,6 @@
   "port": 8161,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "grav",
   "platform_version": 11,
   "version": "1.8.0",

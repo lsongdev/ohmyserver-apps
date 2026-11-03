@@ -4,7 +4,6 @@
   "port": 8157,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "tasks-md",
   "platform_version": 23,
   "version": "3.3.0",

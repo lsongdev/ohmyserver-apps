@@ -4,7 +4,6 @@
   "port": 8182,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "pairdrop",
   "platform_version": 34,
   "version": "1.11.2",

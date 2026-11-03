@@ -26,9 +26,8 @@ services:
         condition: service_healthy
       activepieces-redis:
         condition: service_healthy
-    x-runtipi:
-      internal_port: 80
-      is_main: true
+    ports:
+      - ${APP_PORT}:80
   activepieces-postgres:
     image: postgres:14
     volumes:

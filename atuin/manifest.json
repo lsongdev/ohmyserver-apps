@@ -3,7 +3,6 @@
   "name": "Atuin Server",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8392,
   "id": "atuin",
   "platform_version": 32,

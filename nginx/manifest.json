@@ -3,7 +3,6 @@
   "available": true,
   "port": 8754,
   "exposable": true,
-  "dynamic_config": true,
   "id": "nginx",
   "description": "Simple webserver to test your tipi install. An alternative to the hello-world app.",
   "platform_version": 19,

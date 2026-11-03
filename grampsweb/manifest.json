@@ -3,7 +3,6 @@
   "name": "Gramps Web",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 5000,
   "id": "grampsweb",
   "platform_version": 48,

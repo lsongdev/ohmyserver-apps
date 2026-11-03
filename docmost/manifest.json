@@ -15,7 +15,6 @@
   "source": "https://github.com/docmost/docmost",
   "website": "https://docmost.com/",
   "exposable": true,
-  "dynamic_config": true,
   "force_expose": false,
   "form_fields": [
     {

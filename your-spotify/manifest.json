@@ -3,7 +3,6 @@
   "name": "Your Spotify",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8103,
   "id": "your-spotify",
   "platform_version": 30,

@@ -4,7 +4,6 @@
   "port": 8203,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "logto",
   "platform_version": 45,
   "version": "1.38.0",

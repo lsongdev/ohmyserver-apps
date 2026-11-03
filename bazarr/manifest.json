@@ -3,7 +3,6 @@
   "name": "Bazarr",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 6767,
   "id": "bazarr",
   "platform_version": 28,

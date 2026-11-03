@@ -3,7 +3,6 @@
   "name": "Kometa",
   "available": true,
   "exposable": false,
-  "dynamic_config": true,
   "no_gui": true,
   "port": 9996,
   "id": "kometa",

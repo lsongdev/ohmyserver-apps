@@ -3,7 +3,6 @@
   "name": "Shlink",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "force_expose": true,
   "port": 8207,
   "id": "shlink",

@@ -3,7 +3,6 @@
   "name": "Plex",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 32400,
   "id": "plex",
   "platform_version": 47,

@@ -30,7 +30,6 @@
       "env_variable": "OPENWEBUI_OPENAI_KEY"
     }
   ],
-  "dynamic_config": true,
   "supported_architectures": [
     "arm64",
     "amd64"

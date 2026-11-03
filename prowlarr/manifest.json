@@ -3,7 +3,6 @@
   "name": "Prowlarr",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8109,
   "id": "prowlarr",
   "platform_version": 33,

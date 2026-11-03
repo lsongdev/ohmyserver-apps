@@ -4,7 +4,6 @@
   "port": 5223,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "no_gui": true,
   "id": "simplex-smp",
   "platform_version": 40,

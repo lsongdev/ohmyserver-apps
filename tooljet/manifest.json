@@ -3,7 +3,6 @@
   "name": "Tooljet",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 9876,
   "id": "tooljet",
   "platform_version": 27,

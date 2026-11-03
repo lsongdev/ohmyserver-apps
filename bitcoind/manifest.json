@@ -3,7 +3,6 @@
   "name": "Bitcoin",
   "available": true,
   "exposable": false,
-  "dynamic_config": true,
   "no_gui": true,
   "port": 8333,
   "id": "bitcoind",

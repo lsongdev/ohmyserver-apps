@@ -2,7 +2,6 @@
   "name": "MQTTX",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8217,
   "id": "mqttx",
   "platform_version": 11,

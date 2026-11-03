@@ -3,7 +3,6 @@
   "name": "Flowise AI",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 8009,
   "id": "flowise",
   "platform_version": 60,

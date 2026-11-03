@@ -3,7 +3,6 @@
   "name": "Traefik Certs Dumper",
   "available": true,
   "exposable": false,
-  "dynamic_config": true,
   "no_gui": true,
   "port": 9999,
   "id": "traefik-certs-dumper",

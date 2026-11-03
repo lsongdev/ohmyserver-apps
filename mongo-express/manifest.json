@@ -3,7 +3,6 @@
   "name": "Mongo Express",
   "id": "mongo-express",
   "available": true,
-  "dynamic_config": true,
   "short_desc": "Web-based MongoDB admin interface, written with Node.js and Express",
   "author": "MongoDB",
   "port": 8087,

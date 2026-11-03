@@ -3,7 +3,6 @@
   "name": "Transmission (VPN)",
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "port": 9091,
   "id": "transmission-vpn",
   "platform_version": 16,

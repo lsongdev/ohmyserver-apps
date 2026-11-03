@@ -2,7 +2,6 @@
   "$schema": "../schema.json",
   "name": "Home Bridge",
   "available": true,
-  "dynamic_config": true,
   "port": 8581,
   "platform_version": 6,
   "version": "2024-05-02",

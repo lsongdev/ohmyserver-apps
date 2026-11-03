@@ -3,7 +3,6 @@
   "name": "Cross-Seed",
   "available": true,
   "exposable": false,
-  "dynamic_config": true,
   "no_gui": true,
   "uid": 1000,
   "gid": 1000,

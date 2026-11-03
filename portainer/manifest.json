@@ -5,7 +5,6 @@
   "https": true,
   "available": true,
   "exposable": true,
-  "dynamic_config": true,
   "id": "portainer",
   "platform_version": 61,
   "version": "2.40.0",
