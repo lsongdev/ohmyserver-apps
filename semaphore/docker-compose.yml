@@ -60,3 +60,7 @@ services:
       - default_network
     labels:
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

@@ -87,3 +87,7 @@ services:
       - PGUSER=sftpgo
     labels:
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

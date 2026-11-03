@@ -31,3 +31,7 @@ services:
       traefik.http.routers.inspircd-local.service: inspircd
       traefik.http.routers.inspircd-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

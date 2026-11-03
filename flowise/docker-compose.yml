@@ -46,3 +46,7 @@ services:
       traefik.http.routers.flowise-local.service: flowise
       traefik.http.routers.flowise-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

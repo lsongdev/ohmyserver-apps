@@ -37,3 +37,7 @@ services:
       traefik.http.routers.flatnotes-local.service: flatnotes
       traefik.http.routers.flatnotes-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

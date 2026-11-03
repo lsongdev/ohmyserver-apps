@@ -90,3 +90,7 @@ services:
         hard: 262144
     labels:
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

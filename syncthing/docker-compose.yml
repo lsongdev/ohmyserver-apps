@@ -40,3 +40,7 @@ services:
       traefik.http.routers.syncthing-local.service: syncthing
       traefik.http.routers.syncthing-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

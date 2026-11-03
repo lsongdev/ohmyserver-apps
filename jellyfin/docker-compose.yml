@@ -37,3 +37,7 @@ services:
       traefik.http.routers.jellyfin-local.service: jellyfin
       traefik.http.routers.jellyfin-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

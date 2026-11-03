@@ -72,3 +72,7 @@ services:
       - PGUSER=halo
     labels:
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

@@ -44,3 +44,7 @@ services:
       traefik.http.routers.jackett-local.service: jackett
       traefik.http.routers.jackett-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

@@ -35,3 +35,7 @@ services:
       traefik.http.routers.jellyfin-vue-local.service: jellyfin-vue
       traefik.http.routers.jellyfin-vue-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

@@ -35,3 +35,7 @@ services:
       traefik.http.routers.it-tools-local.service: it-tools
       traefik.http.routers.it-tools-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

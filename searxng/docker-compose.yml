@@ -41,3 +41,7 @@ services:
       traefik.http.routers.searxng-local.service: searxng
       traefik.http.routers.searxng-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

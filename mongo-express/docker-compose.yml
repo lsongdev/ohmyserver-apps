@@ -41,3 +41,7 @@ services:
       traefik.http.routers.mongo-express-local.service: mongo-express
       traefik.http.routers.mongo-express-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

@@ -37,3 +37,7 @@ services:
       traefik.http.routers.dailytxt-local.service: dailytxt
       traefik.http.routers.dailytxt-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

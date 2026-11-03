@@ -39,3 +39,7 @@ services:
       traefik.http.routers.readarr-local.service: readarr
       traefik.http.routers.readarr-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

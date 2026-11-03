@@ -31,3 +31,7 @@ services:
       traefik.http.routers.libretranslate-local.service: libretranslate
       traefik.http.routers.libretranslate-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

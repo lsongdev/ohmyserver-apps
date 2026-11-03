@@ -34,3 +34,7 @@ services:
       traefik.http.routers.lobe-chat-local.service: lobe-chat
       traefik.http.routers.lobe-chat-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

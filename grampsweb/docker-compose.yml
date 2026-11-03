@@ -41,3 +41,7 @@ services:
       traefik.http.routers.grampsweb-local.entrypoints: websecure
       traefik.http.routers.grampsweb-local.service: grampsweb
       traefik.http.routers.grampsweb-local.tls: true
+
+networks:
+  default_network:
+    driver: bridge

@@ -34,3 +34,7 @@ services:
       traefik.http.routers.grist-local.service: grist
       traefik.http.routers.grist-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

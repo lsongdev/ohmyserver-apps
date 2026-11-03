@@ -36,3 +36,7 @@ services:
       traefik.http.routers.ollama-amd-local.service: ollama-amd
       traefik.http.routers.ollama-amd-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

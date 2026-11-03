@@ -35,3 +35,7 @@ services:
       traefik.http.routers.obsidian-livesync-local.service: obsidian-livesync
       traefik.http.routers.obsidian-livesync-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

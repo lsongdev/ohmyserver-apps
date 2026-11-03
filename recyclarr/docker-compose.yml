@@ -14,3 +14,7 @@ services:
     labels:
       traefik.enable: false
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

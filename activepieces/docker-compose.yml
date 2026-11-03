@@ -13,7 +13,7 @@ services:
       - AP_POSTGRES_DATABASE=activepieces
       - AP_POSTGRES_HOST=activepieces-postgres
       - AP_POSTGRES_PORT=5432
-      - AP_POSTGRES_USERNAME=tipi
+      - AP_POSTGRES_USERNAME=admin
       - AP_POSTGRES_PASSWORD=${AP_POSTGRES_PASSWORD}
       - AP_EXECUTION_MODE=UNSANDBOXED
       - AP_REDIS_HOST=activepieces-redis

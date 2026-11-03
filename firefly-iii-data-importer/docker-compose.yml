@@ -46,3 +46,7 @@ services:
       traefik.http.routers.firefly-iii-importer-local.service: firefly-iii-importer
       traefik.http.routers.firefly-iii-importer-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

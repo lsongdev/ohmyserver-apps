@@ -37,3 +37,7 @@ services:
       traefik.http.routers.ddns-updater-local.tls: true
       # Runtipi managed
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

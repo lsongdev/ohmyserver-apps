@@ -30,3 +30,7 @@ services:
       traefik.http.routers.wizarr-local.service: wizarr
       traefik.http.routers.wizarr-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

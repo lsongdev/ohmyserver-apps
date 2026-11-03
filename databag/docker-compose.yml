@@ -35,3 +35,7 @@ services:
       traefik.http.routers.databag-local.service: databag
       traefik.http.routers.databag-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

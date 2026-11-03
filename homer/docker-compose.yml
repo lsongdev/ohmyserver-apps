@@ -30,3 +30,7 @@ services:
       traefik.http.routers.homer-local.service: homer
       traefik.http.routers.homer-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

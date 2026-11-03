@@ -34,3 +34,7 @@ services:
       traefik.http.routers.silverbullet-local.service: silverbullet
       traefik.http.routers.silverbullet-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

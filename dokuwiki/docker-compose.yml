@@ -36,3 +36,7 @@ services:
       traefik.http.routers.dokuwiki-local.service: dokuwiki
       traefik.http.routers.dokuwiki-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

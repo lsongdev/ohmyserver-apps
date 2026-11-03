@@ -7,7 +7,7 @@ services:
       - hibernate_dialect=io.onedev.server.persistence.PostgreSQLDialect
       - hibernate_connection_driver_class=org.postgresql.Driver
       - hibernate_connection_url=jdbc:postgresql://onedev-db:5432/onedev
-      - hibernate_connection_username=tipi
+      - hibernate_connection_username=admin
       - hibernate_connection_password=${ONEDEV_DB_PASSWORD}
       - initial_user=${ONEDEV_USERNAME}
       - initial_password=${ONEDEV_PASSWORD}
@@ -59,3 +59,7 @@ services:
       - default_network
     labels:
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

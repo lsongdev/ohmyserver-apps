@@ -34,3 +34,7 @@ services:
       traefik.http.routers.open-webui-local.service: open-webui
       traefik.http.routers.open-webui-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

@@ -43,3 +43,7 @@ services:
       traefik.http.routers.lidarr-deemix-local.service: lidarr-deemix
       traefik.http.routers.lidarr-deemix-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

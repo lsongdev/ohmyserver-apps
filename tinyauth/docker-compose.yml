@@ -37,3 +37,7 @@ services:
       traefik.http.routers.tinyauth-local.service: tinyauth
       traefik.http.routers.tinyauth-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

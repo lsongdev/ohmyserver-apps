@@ -65,3 +65,7 @@ services:
       retries: 5
     labels:
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

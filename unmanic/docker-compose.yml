@@ -42,3 +42,7 @@ services:
       traefik.http.routers.unmanic-local.service: unmanic
       traefik.http.routers.unmanic-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

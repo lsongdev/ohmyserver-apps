@@ -35,3 +35,7 @@ services:
       traefik.http.routers.freshrss-local.service: freshrss
       traefik.http.routers.freshrss-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

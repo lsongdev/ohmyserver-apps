@@ -39,3 +39,7 @@ services:
       traefik.http.routers.sonarr-local.service: sonarr
       traefik.http.routers.sonarr-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

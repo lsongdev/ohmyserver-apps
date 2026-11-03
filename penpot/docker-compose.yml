@@ -61,7 +61,7 @@ services:
       - PENPOT_FLAGS=enable-registration enable-login-with-password disable-email-verification
       - PENPOT_PUBLIC_URI=${APP_PROTOCOL:-http}://${APP_DOMAIN}:${APP_PORT}
       - PENPOT_DATABASE_URI=postgresql://penpot-postgres/penpot
-      - PENPOT_DATABASE_USERNAME=tipi
+      - PENPOT_DATABASE_USERNAME=admin
       - PENPOT_DATABASE_PASSWORD=${PENPOT_POSTGRES_PASSWORD}
       - PENPOT_REDIS_URI=redis://penpot-redis/0
       - PENPOT_ASSETS_STORAGE_BACKEND=assets-fs
@@ -104,3 +104,7 @@ services:
       - default_network
     labels:
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

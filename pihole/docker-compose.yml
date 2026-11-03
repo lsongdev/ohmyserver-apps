@@ -42,3 +42,7 @@ services:
       traefik.http.routers.pihole-local.service: pihole
       traefik.http.routers.pihole-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

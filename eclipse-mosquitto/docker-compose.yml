@@ -67,3 +67,7 @@ services:
       traefik.http.routers.mosquitto-local.service: mosquitto-web
       traefik.http.routers.mosquitto-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

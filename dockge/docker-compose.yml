@@ -40,3 +40,7 @@ services:
       traefik.http.routers.dockge-local.service: dockge
       traefik.http.routers.dockge-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

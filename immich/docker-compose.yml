@@ -8,7 +8,7 @@ services:
     environment:
       - NODE_ENV=production
       - DB_HOSTNAME=immich-db
-      - DB_USERNAME=tipi
+      - DB_USERNAME=admin
       - DB_PASSWORD=${DB_PASSWORD}
       - ENABLE_MAPBOX=false
       - DB_DATABASE_NAME=immich
@@ -52,7 +52,7 @@ services:
     environment:
       - NODE_ENV=production
       - DB_HOSTNAME=immich-db
-      - DB_USERNAME=tipi
+      - DB_USERNAME=admin
       - DB_PASSWORD=${DB_PASSWORD}
       - DB_NAME=immich
       - DB_DATABASE_NAME=immich
@@ -88,3 +88,7 @@ services:
       - default_network
     labels:
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

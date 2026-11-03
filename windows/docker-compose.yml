@@ -45,3 +45,7 @@ services:
       traefik.http.routers.windows-local.service: windows
       traefik.http.routers.windows-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

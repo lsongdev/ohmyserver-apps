@@ -48,3 +48,7 @@ services:
       traefik.http.routers.wg-easy-local.tls: true
       # Runtipi managed
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

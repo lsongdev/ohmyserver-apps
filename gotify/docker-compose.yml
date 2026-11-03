@@ -38,3 +38,7 @@ services:
       traefik.http.routers.gotify-local.service: gotify
       traefik.http.routers.gotify-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

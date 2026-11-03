@@ -4,7 +4,7 @@ services:
     image: codeberg.org/danb/rss:v1.6.5
     container_name: rss
     environment:
-      - APP_NAME=Tipi-RSS
+      - APP_NAME=RSS
       - APP_FEED_UPDATE_FREQUENCY=35
       - APP_LOAD_POST_THUMBNAILS=true
     volumes:
@@ -35,3 +35,7 @@ services:
       traefik.http.routers.rss-local.service: rss
       traefik.http.routers.rss-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

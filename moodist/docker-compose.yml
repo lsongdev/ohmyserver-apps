@@ -31,3 +31,7 @@ services:
       traefik.http.routers.moodist-local.service: moodist
       traefik.http.routers.moodist-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

@@ -36,3 +36,7 @@ services:
       traefik.http.routers.esphome-local.service: esphome
       traefik.http.routers.esphome-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

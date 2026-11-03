@@ -37,3 +37,7 @@ services:
       traefik.http.routers.owncast-local.tls: true
       traefik.tcp.routers.owncast-rtmp-local.rule: HostSNI(`owncast.${LOCAL_DOMAIN}`)
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

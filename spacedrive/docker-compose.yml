@@ -39,3 +39,7 @@ services:
       traefik.http.routers.spacedrive-local.service: spacedrive
       traefik.http.routers.spacedrive-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

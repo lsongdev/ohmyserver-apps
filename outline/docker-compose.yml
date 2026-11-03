@@ -98,3 +98,7 @@ services:
       traefik.http.routers.outline.service: outline
       traefik.http.routers.outline.tls.certresolver: myresolver
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

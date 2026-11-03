@@ -35,3 +35,7 @@ services:
       traefik.http.routers.dozzle-local.service: dozzle
       traefik.http.routers.dozzle-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

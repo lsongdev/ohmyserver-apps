@@ -54,3 +54,7 @@ services:
       traefik.http.routers.bitcoind-local.service: bitcoind
       traefik.http.routers.bitcoind-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

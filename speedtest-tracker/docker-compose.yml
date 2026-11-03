@@ -9,7 +9,7 @@ services:
       - DB_HOST=speedtest-tracker-db
       - DB_PORT=5432
       - DB_DATABASE=speedtest-tracker
-      - DB_USERNAME=tipi
+      - DB_USERNAME=admin
       - DB_PASSWORD=${SPEEDTEST_TRACKER_DB_PASSWORD}
       - SPEEDTEST_SCHEDULE=${SPEEDTEST_SCHEDULE:-'30 * * * *'}
       - SPEEDTEST_SERVERS=${SPEEDTEST_SERVERS:-''}
@@ -62,3 +62,7 @@ services:
       - default_network
     labels:
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

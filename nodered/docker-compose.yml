@@ -31,3 +31,7 @@ services:
       traefik.http.routers.nodered-local.service: nodered
       traefik.http.routers.nodered-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

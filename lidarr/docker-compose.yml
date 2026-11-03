@@ -37,3 +37,7 @@ services:
       traefik.http.routers.lidarr-local.service: lidarr
       traefik.http.routers.lidarr-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

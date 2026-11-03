@@ -71,3 +71,7 @@ services:
       traefik.http.routers.transmission-local.service: transmission
       traefik.http.routers.transmission-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

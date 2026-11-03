@@ -98,3 +98,7 @@ services:
     command: bash -c "chmod +x /tmp/data/init/init.sh && /tmp/data/init/init.sh "
     labels:
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

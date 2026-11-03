@@ -39,3 +39,7 @@ services:
       traefik.http.routers.ollama-nvidia-local.service: ollama-nvidia
       traefik.http.routers.ollama-nvidia-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

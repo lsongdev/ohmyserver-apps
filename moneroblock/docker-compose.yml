@@ -37,3 +37,7 @@ services:
       traefik.http.routers.moneroblock-local.service: moneroblock
       traefik.http.routers.moneroblock-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

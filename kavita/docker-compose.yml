@@ -36,3 +36,7 @@ services:
       traefik.http.routers.kavita-local.service: kavita
       traefik.http.routers.kavita-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

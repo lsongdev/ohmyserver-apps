@@ -42,3 +42,7 @@ services:
       traefik.http.routers.crafty-local.service: crafty
       traefik.http.routers.crafty-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

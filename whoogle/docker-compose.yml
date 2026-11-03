@@ -31,3 +31,7 @@ services:
       traefik.http.routers.whoogle-local.service: whoogle
       traefik.http.routers.whoogle-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

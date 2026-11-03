@@ -42,3 +42,7 @@ services:
       traefik.http.routers.planning-poker-local.service: planning-poker
       traefik.http.routers.planning-poker-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

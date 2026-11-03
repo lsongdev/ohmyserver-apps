@@ -32,3 +32,7 @@ services:
       traefik.http.routers.smallweb-local.service: smallweb
       traefik.http.routers.smallweb-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

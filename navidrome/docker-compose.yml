@@ -37,3 +37,7 @@ services:
       traefik.http.routers.navidrome-local.service: navidrome
       traefik.http.routers.navidrome-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

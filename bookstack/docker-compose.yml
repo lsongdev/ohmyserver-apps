@@ -8,7 +8,7 @@ services:
       - APP_URL=${APP_PROTOCOL:-http}://${APP_DOMAIN}
       - APP_KEY=base64:${APP_KEY}
       - DB_HOST=bookstack-db
-      - DB_USERNAME=tipi
+      - DB_USERNAME=admin
       - DB_PASSWORD=${BOOKSTACK_DB_PASS}
       - DB_DATABASE=bookstackapp
     volumes:
@@ -59,3 +59,7 @@ services:
       - default_network
     labels:
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

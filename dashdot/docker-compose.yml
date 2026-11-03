@@ -40,3 +40,7 @@ services:
       traefik.http.routers.dashdot-local.service: dashdot
       traefik.http.routers.dashdot-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

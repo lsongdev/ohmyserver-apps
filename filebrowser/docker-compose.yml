@@ -41,3 +41,7 @@ services:
       traefik.http.routers.filebrowser-local.service: filebrowser
       traefik.http.routers.filebrowser-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

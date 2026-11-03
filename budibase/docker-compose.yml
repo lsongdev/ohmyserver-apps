@@ -31,3 +31,7 @@ services:
       traefik.http.routers.budibase-local.service: budibase
       traefik.http.routers.budibase-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

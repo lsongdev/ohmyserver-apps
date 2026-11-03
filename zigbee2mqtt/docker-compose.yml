@@ -37,3 +37,7 @@ services:
       traefik.http.routers.zigbee2mqtt-local.service: zigbee2mqtt-web
       traefik.http.routers.zigbee2mqtt-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

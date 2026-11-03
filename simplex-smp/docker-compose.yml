@@ -34,3 +34,7 @@ services:
       traefik.http.routers.simplex-smp-local.service: simplex-smp
       traefik.http.routers.simplex-smp-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

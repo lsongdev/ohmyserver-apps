@@ -9,7 +9,7 @@ services:
       - APP_URL='${APP_PROTOCOL:-http}://${APP_DOMAIN}'
       - DB_HOST=mixpost-mysql
       - DB_DATABASE=mixpost
-      - DB_USERNAME=tipi
+      - DB_USERNAME=admin
       - DB_PASSWORD=${MIXPOST_MYSQL_PASSWORD}
       - REDIS_HOST=mixpost-redis
       - REDIS_PASSWORD=${MIXPOST_REDIS_PASSWORD}
@@ -85,3 +85,7 @@ services:
       - default_network
     labels:
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

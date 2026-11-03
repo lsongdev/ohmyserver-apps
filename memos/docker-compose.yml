@@ -31,3 +31,7 @@ services:
       traefik.http.routers.memos-local.service: memos
       traefik.http.routers.memos-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

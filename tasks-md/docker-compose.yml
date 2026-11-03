@@ -35,3 +35,7 @@ services:
       traefik.http.routers.tasks-md-local.service: tasks-md
       traefik.http.routers.tasks-md-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

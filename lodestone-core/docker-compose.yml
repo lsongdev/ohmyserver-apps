@@ -39,3 +39,7 @@ services:
       traefik.http.routers.lodestone-core-local.service: lodestone-core
       traefik.http.routers.lodestone-core-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

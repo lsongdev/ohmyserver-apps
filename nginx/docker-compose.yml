@@ -29,3 +29,7 @@ services:
       traefik.http.routers.nginx-local.service: nginx
       traefik.http.routers.nginx-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

@@ -36,3 +36,7 @@ services:
       traefik.http.routers.homebox-local.service: homebox
       traefik.http.routers.homebox-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

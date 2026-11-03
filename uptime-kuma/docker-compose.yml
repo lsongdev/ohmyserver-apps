@@ -34,3 +34,7 @@ services:
       traefik.http.routers.uptime-kuma-local.service: uptime-kuma
       traefik.http.routers.uptime-kuma-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

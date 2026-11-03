@@ -14,7 +14,7 @@ services:
       - OWNCLOUD_TRUSTED_DOMAINS=${APP_DOMAIN}
       - OWNCLOUD_DB_TYPE=mysql
       - OWNCLOUD_DB_NAME=owncloud
-      - OWNCLOUD_DB_USERNAME=tipi
+      - OWNCLOUD_DB_USERNAME=admin
       - OWNCLOUD_DB_PASSWORD=${OWNCLOUD_DB_PASSWORD}
       - OWNCLOUD_DB_HOST=owncloud-db
       - OWNCLOUD_ADMIN_USERNAME=${OWNCLOUD_USERNAME}
@@ -104,3 +104,7 @@ services:
       - default_network
     labels:
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

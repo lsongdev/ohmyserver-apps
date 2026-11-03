@@ -34,3 +34,7 @@ services:
       traefik.http.routers.kapowarr-local.service: kapowarr
       traefik.http.routers.kapowarr-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

@@ -34,3 +34,7 @@ services:
       traefik.http.routers.grav-local.service: grav
       traefik.http.routers.grav-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

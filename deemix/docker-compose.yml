@@ -44,3 +44,7 @@ services:
       traefik.http.routers.deemix-local.service: deemix
       traefik.http.routers.deemix-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

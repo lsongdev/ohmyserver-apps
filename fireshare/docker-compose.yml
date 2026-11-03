@@ -40,3 +40,7 @@ services:
       traefik.http.routers.fireshare-local.service: fireshare
       traefik.http.routers.fireshare-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

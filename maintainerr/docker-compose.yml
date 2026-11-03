@@ -33,3 +33,7 @@ services:
       traefik.http.routers.maintainerr-local.service: maintainerr
       traefik.http.routers.maintainerr-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

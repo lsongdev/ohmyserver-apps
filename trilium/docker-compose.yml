@@ -31,3 +31,7 @@ services:
       traefik.http.routers.trilium-local.service: trilium
       traefik.http.routers.trilium-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

@@ -45,3 +45,7 @@ services:
       traefik.http.routers.netdata-local.service: netdata
       traefik.http.routers.netdata-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

@@ -40,3 +40,7 @@ services:
       traefik.http.routers.seedsync-local.service: seedsync
       traefik.http.routers.seedsync-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

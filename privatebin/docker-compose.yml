@@ -33,3 +33,7 @@ services:
       traefik.http.routers.privatebin-local.service: privatebin
       traefik.http.routers.privatebin-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

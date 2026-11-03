@@ -42,3 +42,7 @@ services:
       traefik.http.routers.slskd-local.service: slskd
       traefik.http.routers.slskd-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

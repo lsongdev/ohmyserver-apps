@@ -76,3 +76,7 @@ services:
       - '9200'
     labels:
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

@@ -42,3 +42,7 @@ services:
       traefik.http.routers.mstream-local.service: mstream
       traefik.http.routers.mstream-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

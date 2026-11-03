@@ -46,3 +46,7 @@ services:
       traefik.http.routers.monerod-local.service: monerod
       traefik.http.routers.monerod-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

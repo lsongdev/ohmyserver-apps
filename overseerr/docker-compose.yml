@@ -37,3 +37,7 @@ services:
       traefik.http.routers.overseerr-local.service: overseerr
       traefik.http.routers.overseerr-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

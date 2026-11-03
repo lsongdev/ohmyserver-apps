@@ -54,3 +54,7 @@ services:
       - POSTGRES_DB=shlink
     labels:
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

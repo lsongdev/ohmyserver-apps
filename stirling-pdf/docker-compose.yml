@@ -37,3 +37,7 @@ services:
       traefik.http.routers.stirling-pdf-local.service: stirling-pdf
       traefik.http.routers.stirling-pdf-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

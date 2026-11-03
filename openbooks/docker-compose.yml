@@ -39,3 +39,7 @@ services:
       traefik.http.routers.openbooks-local.service: openbooks
       traefik.http.routers.openbooks-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

@@ -35,3 +35,7 @@ services:
       traefik.http.routers.write-freely-local.service: write-freely
       traefik.http.routers.write-freely-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

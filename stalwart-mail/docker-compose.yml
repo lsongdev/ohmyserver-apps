@@ -37,3 +37,7 @@ services:
       traefik.http.routers.stalwart-mail-local.service: stalwart-mail
       traefik.http.routers.stalwart-mail-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

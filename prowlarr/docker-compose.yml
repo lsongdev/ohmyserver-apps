@@ -34,3 +34,7 @@ services:
       traefik.http.routers.prowlarr-local.service: prowlarr
       traefik.http.routers.prowlarr-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

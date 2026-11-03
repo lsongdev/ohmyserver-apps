@@ -34,3 +34,7 @@ services:
       traefik.http.routers.jellyseerr-local.service: jellyseerr
       traefik.http.routers.jellyseerr-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

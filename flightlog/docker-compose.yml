@@ -33,3 +33,7 @@ services:
       traefik.http.routers.flightlog-local.service: flightlog
       traefik.http.routers.flightlog-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge

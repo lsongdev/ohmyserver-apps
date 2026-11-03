@@ -38,3 +38,7 @@ services:
       traefik.http.routers.kiwix-serve-local.service: kiwix-serve
       traefik.http.routers.kiwix-serve-local.tls: true
       runtipi.managed: true
+
+networks:
+  default_network:
+    driver: bridge
